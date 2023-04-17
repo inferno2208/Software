@@ -1,0 +1,5 @@
+-- database: c:\Users\infer\OneDrive\Escritorio\Nueva carpeta\ferretodo.db
+
+-- Presione el botón ▷ en la esquina superior derecha de la ventana para ejecutar todo el archivo.
+
+DELETE FROM empleados WHERE cedula = 'Fabiola';

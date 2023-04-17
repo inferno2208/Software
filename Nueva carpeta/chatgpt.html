@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      background-image: url('https://example.com/gatos.jpg'); /* URL de la imagen de gatos */
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .login-container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-container h4 {
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .login-container .input-field {
+      margin-top: 30px;
+    }
+
+    .login-container .btn {
+      width: 100%;
+    }
+
+    .login-container .btn-large {
+      margin-top: 30px;
+    }
+
+    .login-container .btn-alternate {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h4>Iniciar Sesión</h4>
+    <form>
+      <div class="input-field">
+        <input type="email" id="email" name="email">
+        <label for="email">Correo electrónico</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" name="password">
+        <label for="password">Contraseña</label>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit">Iniciar Sesión
+        <i class="material-icons right">send</i>
+      </button>
+      <a href="#" class="btn btn-alternate waves-effect waves-light">¿Olvidaste tu contraseña?</a>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
